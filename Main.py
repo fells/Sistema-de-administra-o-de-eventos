@@ -4,9 +4,11 @@ from lib.arquivoSala import *
 from lib.arquivoSalaCafe import *
 from time import sleep
 
-arq = "Estudantes.txt"
-arq2 = "Salas.txt"
-arq3 = "Salascafé.txt"
+clasrooms =[]
+arq = "Estudantes.csv"
+arq2 = "Salas.csv"
+arq3 = "Salascafé.csv"
+
 
 if not Estudante.arquivoExiste(arq):
     Estudante.criarArquivo(arq)
